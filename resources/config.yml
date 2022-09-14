@@ -1,0 +1,18 @@
+stage:
+  server:
+    port: ":8082"
+  localApi:
+    api:
+      host: "http://localhost:8089"
+      timeout: 5000
+      maxIdleConnection: 2
+    default:
+      url: ""
+    latePoint:
+      url: ""
+    postDefault:
+      url: ""
+    putDefault:
+      url: "domain/%s"
+    deleteDefault:
+      url: "domain/%s"
